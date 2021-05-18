@@ -1,0 +1,37 @@
+{
+  "name": "APIServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Park Sujin",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon -r esm index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.16",
+    "morgan": "^1.10.0",
+    "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "nodemon": "^2.0.7"
+  }
+}
